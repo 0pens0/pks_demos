@@ -1,0 +1,7 @@
+{
+"name": "lb-profile-routed",
+"description": "Network profile for ROUTED POD Network",
+"parameters": {
+   "lb_size": "medium"
+   }
+}

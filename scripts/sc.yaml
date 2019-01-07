@@ -1,0 +1,11 @@
+kind: StorageClass
+apiVersion: storage.k8s.io/v1
+metadata:
+  name: vforum-sc-demo
+provisioner: kubernetes.io/vsphere-volume
+parameters:
+    diskformat: thin
+    storagePolicyName: vforumdemopolicy
+    datastore: vsanDatastore
+    cachereservation: "20"
+    hostFailuresToTolerate: "1"
