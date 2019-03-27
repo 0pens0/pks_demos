@@ -1,0 +1,9 @@
+{
+    "description": "Network profile with small load balancer and two routable pod networks",
+    "name": "medium-routable-pod-27",
+    "parameters": {
+    "pod_subnet_prefix" : 27,
+    "pod_routable": true,
+    "pod_ip_block_ids": ["c6e93c86-e225-4037-8a5f-91100c37c79f"]
+    }
+}

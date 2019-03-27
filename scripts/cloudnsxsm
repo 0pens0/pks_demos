@@ -1,0 +1,4 @@
+vke account login -t 36f62bdc-17dc-4a30-8f84-77e78f510d01  -r 9884b2ed-56b1-4949-bdce-8fa5c1d277c2
+vke folder set SharedFolder
+vke project set SharedProject
+vke cluster auth setup --folder SharedFolder --project SharedProject vke2-ignition-18
