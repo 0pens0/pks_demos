@@ -1,0 +1,2 @@
+V	200404190616Z		100212	unknown	/C=US/ST=Denial/L=Springfield/O=Dis/CN=bookinfo.com
+V	200404190620Z		100213	unknown	/C=US/ST=Denial/L=Springfield/O=Dis/CN=bookinfo.com

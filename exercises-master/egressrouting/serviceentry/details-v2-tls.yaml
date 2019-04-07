@@ -1,0 +1,21 @@
+
+apiVersion: networking.istio.io/v1alpha3
+kind: ServiceEntry
+metadata:
+  name: googleapis
+spec:
+  hosts:
+  - www.googleapis.com
+  ports:
+  - number: 443
+    name: tls
+    protocol: TLS
+  - number: 80
+    name: http
+    protocol: http
+  resolution: DNS
+  endpoints:
+  - address: www.googleapis.com
+    network: external
+  - address: istio-egressgateway.istio-system.svc.cluster.local
+
